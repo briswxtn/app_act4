@@ -4,8 +4,10 @@ temperatura = st.number_input(
   "Introducir temperatura en °C:".
   value=20
 )
-st.search(
   if temperatura＜20:
-st.writte("Hace frío")
-)
+    st.writte("Hace frío")
+  elif temperatura＜30:
+    st.writte("La temperatura es agradable")
+  else:
+  st.writte("Hace calor")
 
